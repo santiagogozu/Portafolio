@@ -1,0 +1,51 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+#hero{
+  background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+  height: 50vh;
+}
+
+.containerPresentation{
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerName{
+  display: flex;
+  flex-direction: column;
+}
+
+.presentation{
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.perfilImg{
+  
+}
+
+.perfilImg img{
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+span{
+  font-family: 'Roboto Mono', monospace;
+  padding-left: 0.5rem;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.section__description{
+    display: flex; 
+    justify-content: center;
+}
+
+.section__description p{
+    width: 50vw;
+}
+
