@@ -35,7 +35,7 @@ const Contact = () => {
               words={[
                 "Say Hi 👋",
                 "Get in touch now 🤗",
-                "Let's have a cup of tea ☕️",
+                "Let's have a cup of coffe ☕️",
               ]}
               loop={true}
               cursor
