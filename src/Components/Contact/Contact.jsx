@@ -39,7 +39,7 @@ const Contact = () => {
               ]}
               loop={true}
               cursor
-              cursorStyle="_"
+              cursorStyle="</>"
               typeSpeed={50}
               deleteSpeed={20}
               delaySpeed={1000}

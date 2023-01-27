@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import imgAbout from "../../img/wallpaperCode.jpg";
+import imgAbout from '../../img/perfil.jpg'
 // import downloadResume from '../../../src/img/img_btn_icon.png'
 // import resume from '../../img/Resume of MD. Rafiul Alam.pdf'
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
           <img src={imgAbout} alt="" />
         </div>
         <div className="containerAbout">
-          <h2 id="hello_header">Hi_</h2>
+          <h2 id="hello_header">About me_</h2>
           <div className="section__description">
             <p className="section__description">
               I am Santiago Gonzalez, a junior developer able to build a Web

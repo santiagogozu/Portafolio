@@ -89,12 +89,12 @@ const Hero = () => {
         />
         <Navigaton></Navigaton>
         
-        <div className="containerPresentation">
-            <div className="perfilImg">
+        <section className="containerPresentation" id="home">
+            {/* <div className="perfilImg">
                 <img src={myImg} alt="" />
-            </div>
+            </div> */}
             <div className='containerName'>
-                <h1>Santiago Gonzalez Zuluaga</h1>
+                <p>Santiago Gonzalez Zuluaga</p>
                 <div className='presentation'>
                     <h1>I'm</h1>
                     <Typewriter
@@ -108,7 +108,7 @@ const Hero = () => {
                 />
                 </div>
             </div>
-        </div>
+        </section>
     </div>
   );
 };

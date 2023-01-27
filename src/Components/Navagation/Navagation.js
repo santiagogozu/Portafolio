@@ -5,17 +5,20 @@ const Navagation = () => {
   return (
     <nav className='navBar'>
       <div className='contenedorList'>
-          <ul className='listBar'>
-            <li>
-              <a href="#about">Resume</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+        <ul className='listBar'>
+          <li>
+            <a className='navBar-btn' href="#home">Home</a>
+          </li>
+          <li>
+            <a className='navBar-btn' href="#about">Resume</a>
+          </li>
+          <li>
+            <a className='navBar-btn' href="#projects">Projects</a>
+          </li>
+          <li>
+            <a className='navBar-btn' href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
