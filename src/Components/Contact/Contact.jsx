@@ -31,24 +31,28 @@ const Contact = () => {
       <div id="contact" className="container section">
         <div className="row">
           <div className="contacts_header">
-            <Typewriter
-              words={[
-                "Say Hi 👋",
-                "Get in touch now 🤗",
-                "Let's have a cup of coffe ☕️",
-              ]}
-              loop={true}
-              cursor
-              cursorStyle="</>"
-              typeSpeed={50}
-              deleteSpeed={20}
-              delaySpeed={1000}
-            />
+            <p>Just write me a letter here_</p>
           </div>
         </div>
         <div className="containerEmail">
           <div className="container">
-            <p>Just write me a letter here_</p>
+            <div className="containerTextTypewrite">
+            <div className="textTypewrite">
+              <Typewriter
+                words={[
+                  "Say Hi 👋",
+                  "Get in touch now 🤗",
+                  "Let's have a cup of coffe ☕️",
+                ]}
+                loop={true}
+                cursor
+                cursorStyle="</>"
+                typeSpeed={50}
+                deleteSpeed={20}
+                delaySpeed={1000}
+              />
+            </div>
+            </div>
             <form ref={form} onSubmit={sendEmail}>
               <input
                 className="FormInput"
