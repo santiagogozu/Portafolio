@@ -10,7 +10,7 @@ const Navagation = () => {
             <a className='navBar-btn' href="#home">Home</a>
           </li>
           <li>
-            <a className='navBar-btn' href="#about">Resume</a>
+            <a className='navBar-btn' href="#section_about">Resume</a>
           </li>
           <li>
             <a className='navBar-btn' href="#projects">Projects</a>

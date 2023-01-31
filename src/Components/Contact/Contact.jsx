@@ -31,7 +31,7 @@ const Contact = () => {
       <div id="contact" className="container section">
         <div className="row">
           <div className="contacts_header">
-            <p>Just write me a letter here_</p>
+            Just write me a letter here_
           </div>
         </div>
         <div className="containerEmail">
