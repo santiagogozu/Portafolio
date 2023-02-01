@@ -3,7 +3,6 @@ import "./Home.css";
 import {useCallback} from "react";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
-import Navigaton from "../Navagation/Navagation";
 import {Typewriter} from "react-simple-typewriter";
 
 
@@ -65,7 +64,7 @@ const Home = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 2,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -88,12 +87,9 @@ const Home = () => {
           detectRetina: true,
         }}
       />
-      <Navigaton></Navigaton>
+
 
       <section className="containerPresentation" id="home">
-        {/* <div className="perfilImg">
-                <img src={myImg} alt="" />
-            </div> */}
         <div className="containerName">
           <p>Santiago Gonzalez Zuluaga</p>
           <div className="presentation">

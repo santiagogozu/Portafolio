@@ -18,11 +18,7 @@
   width: 40%;
   
 }
-.projectImg img{
-  /* background-color: #f1f1f1; */
-  width: 100%;
-  display: flex;
-}
+
 
 .project h2{
   font-size: 2rem;
@@ -82,3 +78,12 @@
   display: flex;
   justify-content: center;
 }
+
+.projectImg img{
+  /* background-color: #f1f1f1; */
+  width: 90%;
+  position: relative;
+  z-index: 1;
+
+}
+

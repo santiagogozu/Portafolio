@@ -11,8 +11,7 @@ const Project = () => {
         <h2>My projects_</h2>
         <div className="project1">
           <div className="projectImg">
-            <img src={imgHappyCoding} alt="" className="img-fluid pb-5" data-aos="zoom-in"
-              data-aos-duration="500" />
+            <img src={imgHappyCoding} alt="" className="gradient-custom"/>
           </div>
           <div className="project-details">
             <ul className="my-item">
@@ -22,10 +21,10 @@ const Project = () => {
               <li>➣ Responsive website</li>
             </ul>
             <ul className="tags">
-            <li>#React</li>
-            <li>#HTML5</li>
-            <li>#CSS</li>
-            <li>#JavaScript</li>
+              <li>#React</li>
+              <li>#HTML5</li>
+              <li>#CSS</li>
+              <li>#JavaScript</li>
             </ul>
             <div className="project-link">
               <a href="https://santiagogozu.github.io/Happy-Coding-React/"><FontAwesomeIcon icon={faGlobe} /><i className="fs fa-globe"></i> Live Site</a>

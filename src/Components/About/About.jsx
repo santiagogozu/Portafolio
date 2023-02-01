@@ -11,7 +11,6 @@ const About = () => {
         <div className="imgAbout">
           <img src={imgAbout} alt="" />
         </div>
-
           <div className="section__description">
             <div className="section__description_text" > 
               I am Santiago Gonzalez, a junior developer able to build a Web
@@ -24,7 +23,7 @@ const About = () => {
             <br />
             <div className="section__description_list">
               <div>
-                <p>Skilled in Front End technologies such as:</p>
+                <p>Front End technologies:</p>
                 <ul>
                   <li>Html5.</li>
                   <li>Css3.</li>
@@ -34,8 +33,9 @@ const About = () => {
                   <li>Sass.</li>
                 </ul>
               </div>
+              <hr />
               <div>
-                <p> Back End technologies such as:</p>
+                <p> Back End technologies:</p>
                 <ul>
                   <li>Node.JS.</li>
                   <li>Express.</li>

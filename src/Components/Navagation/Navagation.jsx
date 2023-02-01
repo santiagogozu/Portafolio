@@ -1,13 +1,15 @@
 import React from 'react';
 import './Navagation.css'
 
+
 const Navagation = () => {
   return (
     <nav className='navBar'>
       <div className='contenedorList'>
         <ul className='listBar'>
           <li>
-            <a className='navBar-btn' href="#home">Home</a>
+          <button class="btn purple-gradient">Purple</button>
+            <a className='btn btn-primary' href="#home">Home</a>
           </li>
           <li>
             <a className='navBar-btn' href="#section_about">Resume</a>
