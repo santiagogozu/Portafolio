@@ -9,7 +9,7 @@
 }
 
 #section_about h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .about{
@@ -46,7 +46,7 @@
 }
 
 .imgAbout img{
-    width: 35vh;
+    width: 30vw;
     padding-top: 10%;
     border-radius: 50%;
 	box-shadow: 5px 5px 26px rgba(0, 0, 0, 0.2)  ; 
@@ -66,4 +66,17 @@
     display: flex;
     font-size: 1.3vw;
     padding-right: 5%;
+}
+
+
+@media screen and (max-width:768px){
+
+    .section__description_text{
+        font-size: 2vw;
+    }
+
+    .section__description_list{
+        font-size: 2vw;
+    }
+    
 }

@@ -48,3 +48,13 @@ span{
   height: 8vh;
   align-items: center;
 }
+
+@media screen and (max-width:768px){
+  .Typewriter{
+    display: none;
+  }
+
+  .presentation h1{
+    display: none;
+  }
+}

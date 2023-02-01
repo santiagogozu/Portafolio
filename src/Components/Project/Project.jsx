@@ -11,9 +11,11 @@ const Project = () => {
       <div className="project">
         <h2>My projects_</h2>
         <div className="project1">
-          <div className="projectImg">
-            <img src={imgHappyCoding} alt="" className="gradient-custom"/>
-          </div>
+          {/* <div class="content"> */}
+            <a className="projectImg" href="https://santiagogozu.github.io/Happy-Coding-React/">
+              <img src={imgHappyCoding} alt="" />
+            </a>
+          {/* </div> */}
           <div className="project-details">
             <ul className="my-item">
               <h3 className="projectName">Happy-Coding</h3>
@@ -37,9 +39,11 @@ const Project = () => {
 
       <div className="project">
         <div className="project1">
-          <div className="projectImg">
-            <img src={imageBrowser} alt="" className="gradient-custom"/>
-          </div>
+          {/* <div class="content"> */}
+            <a className="projectImg" href="https://santiagogozu.github.io/Image-Browser/">
+              <img src={imageBrowser} alt="" />
+            </a>
+          {/* </div> */}
           <div className="project-details">
             <ul className="my-item">
               <h3 className="projectName">IMAGE BROWSER</h3>

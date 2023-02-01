@@ -82,6 +82,7 @@ const Contact = () => {
                 ></textarea>
                 <span></span>
               </div>
+              <div className="containerButton">
               <button
                 className="site-btn site-btn--form"
                 type="submit"
@@ -89,6 +90,7 @@ const Contact = () => {
               >
                 Send
               </button>
+              </div>
             </form>
           </div>
         </div>

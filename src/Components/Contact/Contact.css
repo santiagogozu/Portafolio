@@ -10,7 +10,7 @@
   }
 
 .contacts_header {
-    font-size: 2rem;
+    font-size: 2vw;
     text-align: center;
     padding: 2%;
 }
@@ -101,3 +101,67 @@
   height: 1vh;
 }
 
+@media screen and (max-width:768px){
+
+  .containerTextTypewrite {
+    height: 0px;
+  }
+  .textTypewrite{
+    display: none;
+  }
+
+  .footer{
+    font-size: 1.5vw;
+  }
+
+  .site-btn.site-btn--form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-btn {
+    background-color: #6d56c1;
+    height: 0.1vh;
+    border-radius: 25px;
+    font-size: 1.5vw;
+    line-height: 1vh;
+    padding: 15px;
+    overflow: hidden;
+    margin-top: 0px;
+    min-width: 0px;
+  }
+
+  .containerButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FormInput {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0.1px solid #fff;
+    padding: 0px;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 1.5vw;
+    font-family: Roboto Mono,monospace;
+  }
+
+  .FormTextArea{
+
+        width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0.1px solid #fff;
+    padding: 0px;
+    color: #fff;
+    font-size: 2vw;
+    line-height: 1.5vw;
+
+  }
+  
+}

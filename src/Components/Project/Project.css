@@ -10,24 +10,17 @@
   text-align: left;
   padding: 5px 5px;
   color: #555;
-  font-size: 1.2rem;
+  font-size: 1.5vw;
 }
-.projectImg{
-
-  display: flex;
-  width: 40%;
-  
-}
-
 
 .project h2{
-  font-size: 2rem;
+  font-size: 2vw;
   text-align: center;
 }
 
 
 .projectName {
-  font-size: 1.5rem;
+  font-size: 1.7vw;
   line-height: 30px;
   font-family: Roboto Mono,monospace;
   text-transform: uppercase;
@@ -43,20 +36,13 @@
   width: 40%;
 }
 
-.project-details p{
-  text-align: left;
-  padding-left: 40px;
-  margin: 0;
-  margin-top: -10px;
-  padding-bottom: 15px;
-  color: #0919f7;
-}
+
 .tags{
   text-align: left;
 }
 .tags li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 1.2vw;;
   line-height: 20px;
   background-color: #5225f712;
   box-shadow: 0 1px 4px rgba(0,0,0,.14);
@@ -72,18 +58,77 @@
 .project-link a {
   text-decoration: none;
   padding: 15px;
+  font-size: 1.5vw;
 }
 
 .project1{
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 .projectImg img{
-  /* background-color: #f1f1f1; */
-  width: 90%;
-  position: relative;
-  z-index: 1;
+  width: 100%;
+  height:53vh;
+  object-fit: scale-down;
+}
 
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+.content {
+  position: relative;
+  display: flex;
+  display: inline-block;
+}
+
+.content:after {
+  position: absolute;
+  content:"";
+  height:53vh;
+  width:100%;
+  object-fit: scale-down;
+  top:0;
+  left:0;
+  /* background-image: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95)); */
+  background: linear-gradient( 135deg, rgba(74, 76, 179, 0.507) 0%,hsla(0,34%,71%, 1) 200%); /* W3C */
+}
+
+.projectImg{
+  display: flex;
+  width: 40%;
+}
+
+@media screen and (max-width:768px){
+  .project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .project-details{
+    width: 100%;
+  }
+
+  .projectName {
+    font-size: 3vw;
+    line-height: 0;
+  }
+
+  .my-item li {
+    padding: 0px 0px;
+    font-size: 2vw;
+  }
+
+  .tags li {
+    font-size: 2vw;  
+  }
+
+  .projectImg img{
+    width: 100%;
+    height:100%;
+    object-fit: scale-down;
+  }
 }
 
