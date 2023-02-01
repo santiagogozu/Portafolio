@@ -4,6 +4,7 @@ import imgHappyCoding from "../../img/happyCoding.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import imageBrowser from "../../img/imageBrowser.jpg";
 const Project = () => {
   return (
     <section id="projects">
@@ -29,6 +30,32 @@ const Project = () => {
             <div className="project-link">
               <a href="https://santiagogozu.github.io/Happy-Coding-React/"><FontAwesomeIcon icon={faGlobe} /><i className="fs fa-globe"></i> Live Site</a>
               <a href="https://github.com/santiagogozu/Happy-Coding-React/"><FontAwesomeIcon icon={faGithub} /><i className="fs fa-globe"></i> Repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="project">
+        <div className="project1">
+          <div className="projectImg">
+            <img src={imageBrowser} alt="" className="gradient-custom"/>
+          </div>
+          <div className="project-details">
+            <ul className="my-item">
+              <h3 className="projectName">IMAGE BROWSER</h3>
+              <li>➣ Website where you can find a variety of photographs for personal use</li>
+              <li>➣ All photographs are consumed through public API which is constantly changing and updating</li>
+              <li>➣ Responsive website</li>
+            </ul>
+            <ul className="tags">
+              <li>#React</li>
+              <li>#HTML5</li>
+              <li>#CSS</li>
+              <li>#JavaScript</li>
+            </ul>
+            <div className="project-link">
+              <a href="https://santiagogozu.github.io/Image-Browser/"><FontAwesomeIcon icon={faGlobe} /><i className="fs fa-globe"></i> Live Site</a>
+              <a href="https://github.com/santiagogozu/Image-Browser"><FontAwesomeIcon icon={faGithub} /><i className="fs fa-globe"></i> Repository</a>
             </div>
           </div>
         </div>
