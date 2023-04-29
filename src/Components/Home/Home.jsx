@@ -5,7 +5,6 @@ import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
 import {Typewriter} from "react-simple-typewriter";
 
-
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
@@ -17,7 +16,6 @@ const Home = () => {
   }, []);
 
   return (
-    
     <div id="hero">
       <Particles
         id="tsparticles"
@@ -88,7 +86,6 @@ const Home = () => {
         }}
       />
 
-
       <section className="containerPresentation" id="home">
         <div className="containerName">
           <p>Santiago Gonzalez Zuluaga</p>
@@ -98,6 +95,7 @@ const Home = () => {
               <Typewriter
                 words={[
                   "Full Stack Web Developer",
+                  "Java",
                   "HTML5",
                   "CSS",
                   "Javascript",

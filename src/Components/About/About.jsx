@@ -41,6 +41,7 @@ const About = () => {
                   <li>Express.</li>
                   <li>JavaScript.</li>
                   <li>MongoDb.</li>
+                  <li>MySQL.</li>
                 </ul>
               </div>
             </div>

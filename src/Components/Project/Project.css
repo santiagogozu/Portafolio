@@ -122,7 +122,8 @@
   }
 
   .tags li {
-    font-size: 2vw;  
+    font-size: 2vw;
+    line-height: 0.2px;  
   }
 
   .projectImg img{
