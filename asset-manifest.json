@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.2428f6f1.css",
-    "main.js": "/Portafolio/static/js/main.73544610.js",
+    "main.css": "/Portafolio/static/css/main.020e7569.css",
+    "main.js": "/Portafolio/static/js/main.6d4f9c60.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portafolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/atv.png": "/Portafolio/static/media/atv.5b991a824995150b7d10.png",
+    "static/media/satmed.png": "/Portafolio/static/media/satmed.0b8b6a3e9218b0435ead.png",
     "static/media/happyCoding.jpg": "/Portafolio/static/media/happyCoding.c7e5310a18b49ccaf77d.jpg",
+    "static/media/contraloria.png": "/Portafolio/static/media/contraloria.5e3b9999c55aaf23fcb8.png",
+    "static/media/icfes.png": "/Portafolio/static/media/icfes.9e73cfb206b26694c709.png",
     "static/media/imageBrowser.jpg": "/Portafolio/static/media/imageBrowser.0f07d7bae354776e975c.jpg",
+    "static/media/siscarac.png": "/Portafolio/static/media/siscarac.d58542c5dc72ab274b31.png",
     "static/media/perfil.jpg": "/Portafolio/static/media/perfil.d9702ce60ad61e8acfef.jpg",
     "index.html": "/Portafolio/index.html",
-    "main.2428f6f1.css.map": "/Portafolio/static/css/main.2428f6f1.css.map",
-    "main.73544610.js.map": "/Portafolio/static/js/main.73544610.js.map",
+    "main.020e7569.css.map": "/Portafolio/static/css/main.020e7569.css.map",
+    "main.6d4f9c60.js.map": "/Portafolio/static/js/main.6d4f9c60.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portafolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2428f6f1.css",
-    "static/js/main.73544610.js"
+    "static/css/main.020e7569.css",
+    "static/js/main.6d4f9c60.js"
   ]
 }
