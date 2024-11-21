@@ -11,41 +11,40 @@ const About = () => {
         <div className="imgAbout">
           <img src={imgAbout} alt="" />
         </div>
-          <div className="section__description">
-            <div className="section__description_text" > 
-              I am Santiago Gonzalez, a junior developer able to build a Web
-              presence from the ground up - from concept, navigation and layout.
-              Learning a variety of scripting languages and multimedia tools is
-              one of my strengths. I am also a hard worker and team player. I am
-              looking for a challenging opportunity that will enable me to use
-              my skills and abilities to achieve a challenging goal.
+        <div className="section__description">
+          <div className="section__description_text">
+            Fullstack Web Developer with 3 years of experience in creating
+            complete digital solutions, from conceptualization to final
+            implementation. With strong knowledge in programming languages and
+            multimedia tools, I specialize in building intuitive and functional
+            web experiences.
+          </div>
+          <br />
+          <div className="section__description_list">
+            <div>
+              <p>Front End technologies:</p>
+              <ul>
+                <li>Html5.</li>
+                <li>Css3.</li>
+                <li>JavaScript.</li>
+                <li>React.</li>
+                <li>Angular.</li>
+                <li>Sass.</li>
+              </ul>
             </div>
-            <br />
-            <div className="section__description_list">
-              <div>
-                <p>Front End technologies:</p>
-                <ul>
-                  <li>Html5.</li>
-                  <li>Css3.</li>
-                  <li>JavaScript.</li>
-                  <li>React.</li>
-                  <li>Angular.</li>
-                  <li>Sass.</li>
-                </ul>
-              </div>
-              <hr />
-              <div>
-                <p> Back End technologies:</p>
-                <ul>
-                  <li>Node.JS.</li>
-                  <li>Express.</li>
-                  <li>JavaScript.</li>
-                  <li>MongoDb.</li>
-                  <li>MySQL.</li>
-                </ul>
-              </div>
+            <hr />
+            <div>
+              <p> Back End technologies:</p>
+              <ul>
+                <li>Node.JS.</li>
+                <li>Express.</li>
+                <li>JavaScript.</li>
+                <li>MongoDb.</li>
+                <li>MySQL.</li>
+              </ul>
             </div>
           </div>
+        </div>
         {/* <a href={resume} target="_blank" className="section_btn site-btn" data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="500"><img src={downloadResume} alt="" />Download Resume</a> */}
