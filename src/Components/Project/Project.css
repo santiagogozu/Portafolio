@@ -69,7 +69,7 @@
 }
 
 .projectImg img{
-  width: 100%;
+  width: 80%;
   height:53vh;
   object-fit: scale-down;
 }
@@ -127,7 +127,7 @@
   }
 
   .projectImg img{
-    width: 100%;
+    width: 80%;
     height:100%;
     object-fit: scale-down;
   }
